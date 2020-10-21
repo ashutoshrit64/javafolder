@@ -1,8 +1,4 @@
 #!/bin/bash -x
-
-echo "Lets generate 10 Random 3 digit numbers";
-echo "After Storing them to an array, we have.., ";
-
 n=1;
 for ((i=0;i<=9;i++))
 do
@@ -16,7 +12,6 @@ done
 
 lar=${Array[0]};
 secLar=0;
-
 for (( i=1; i<${#Array[@]}; i++ ))
 do
 	if [ ${Array[i]} -gt $lar ]
