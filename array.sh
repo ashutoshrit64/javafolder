@@ -1,5 +1,4 @@
 #!/bin/bash -x
-n=1;
 for ((i=0;i<=9;i++))
 do
 	value=$((RANDOM%900+100))
